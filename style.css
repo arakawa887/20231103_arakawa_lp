@@ -39,6 +39,7 @@ nav ul li a{
   color: brown;
   line-height: 120px;
   font-family: 'Indie Flower', cursive;
+  width: 75vw;
 }
 .top-content-grouth{
   color: aqua;
@@ -50,6 +51,7 @@ nav ul li a{
   color: brown;
   top: 130px;
   left: 250px;
+  width: 75vw;
 }
 .main-top-comment-growth{
   color: aqua;
@@ -60,6 +62,7 @@ nav ul li a{
   color: gray;
   top: 130px;
   left: 250px;
+  width: 700px;
 }
 .news{
 margin: 50px 0;
@@ -70,10 +73,12 @@ margin: 50px 0;
   font-size: 15px;
   color: brown;
 margin-left: 360px;
+width: 700px;
 }
 .news-title{
   color: gray;
   margin-left: 360px;
+  width: 700px;
 }
 .news-log{
   border-top: 2px solid gray;
@@ -135,6 +140,7 @@ list-style: none;
   color: darkgray;
   width: 25vw;
   margin-bottom: 2em;
+  line-height: 1.5em;
 }
 .about-photo{
   width: 25vw;
@@ -149,6 +155,7 @@ margin: 80px auto 40px auto
 position: relative;
 color: gray;
 left: 210px;
+width: 700px;
 }
 .service-title::before{
 content: "service";
@@ -240,6 +247,7 @@ margin: 10px auto;
     position: relative;
     color: gray;
     left: 270px;
+    width: 700px;
   }
 .blog-title::before{
   content: "blog";
@@ -257,6 +265,8 @@ margin: 10px auto;
   position: relative;
   width: 18vw;
   margin: 20px 40px 40px 40px;
+  background-color: aliceblue;
+  border-radius: 20px;
 }
 .card-title{
   color: aliceblue;
@@ -299,6 +309,7 @@ margin: 30px auto 30px auto;
   position: relative;
   left: 375px;
   margin-top: 70px;
+  width: 700px;
 }
 .summary-title::before{
   content: "company";
@@ -338,11 +349,13 @@ margin: 30px auto 30px auto;
 }
 .background-recruit a{
   position: relative;
+  display: block;
   top: -50%;
-  left: 50%;
   color: aliceblue;
   text-decoration: none;
   font-weight: bold;
+  margin: auto;
+  width: 64px;
 }
 .background-interview img{
   width: 50vw;
@@ -351,12 +364,14 @@ margin: 30px auto 30px auto;
   position: relative;
 }
 .background-interview a{
+  display: block;
   position: relative;
-  top: -50%;
-  left: 50%;
   color: aliceblue;
+  top: -50%;
   text-decoration: none;
   font-weight: bolder;
+  width: 128px;
+  margin: auto;
 }
 .inquiry-title{
   color: grey;
